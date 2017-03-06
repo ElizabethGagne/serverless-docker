@@ -22,6 +22,7 @@ RUN apk add --no-cache --virtual .persistent-deps \
         webpack \
         serverless \
         ts-loader \
+        ts-node \
         serverless-webpack \
         tslint \
         tslint-config-olo \
@@ -32,6 +33,7 @@ RUN apk add --no-cache --virtual .persistent-deps \
         karma-webpack \
         karma-chai \
         karma-mocha \
+        phantomjs \
         phantomjs-prebuilt \
         karma-phantomjs-launcher
 
