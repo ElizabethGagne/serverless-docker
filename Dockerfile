@@ -22,6 +22,7 @@ RUN apk add --no-cache --virtual .persistent-deps \
         webpack \
         serverless \
         ts-loader \
+        json-loader \
         ts-node \
         serverless-webpack \
         tslint \
@@ -35,7 +36,15 @@ RUN apk add --no-cache --virtual .persistent-deps \
         karma-mocha \
         phantomjs \
         phantomjs-prebuilt \
-        karma-phantomjs-launcher
+        karma-phantomjs-launcher \
+        request \
+        aws-sdk \
+        aws-lambda \
+        uuid \
+        @types/aws-sdk \
+        @types/aws-lambda \
+        @types/core-js
+
 
 # Set up the application directory
 VOLUME ["/app"]
