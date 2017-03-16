@@ -34,6 +34,8 @@ RUN apk add --no-cache --virtual .persistent-deps \
         karma-webpack \
         karma-chai \
         karma-mocha \
+        sinon \
+        power-assert \
         phantomjs \
         phantomjs-prebuilt \
         karma-phantomjs-launcher \
