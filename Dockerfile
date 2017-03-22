@@ -45,7 +45,7 @@ RUN apk add --no-cache --virtual .persistent-deps \
         uuid \
         @types/aws-sdk \
         @types/aws-lambda \
-        @types/core-js
+        @types/es6-promise
 
 
 # Set up the application directory
